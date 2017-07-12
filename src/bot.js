@@ -64,7 +64,7 @@ export const bot = (body, response, callback) => {
            * If response received from Recast.AI does not contain any reply
            */
           callback(null, {
-            reply: 'No reply :(',
+            reply: 'Test :(',
             conversationToken: res.conversationToken,
           })
         }
